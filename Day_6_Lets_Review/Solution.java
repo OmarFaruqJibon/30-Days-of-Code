@@ -10,13 +10,11 @@ public class Solution {
 		int t = myScanner.nextInt();
 		myScanner.nextLine();
 		
-		
-		
 		for (int i = 0; i < t; i++) {
 			String s;
-			
 			String even = "";
 			String odd = "";
+			
 			s = myScanner.nextLine();
 			
 			for (int j = 0; j < s.length(); j++) {
@@ -27,10 +25,9 @@ public class Solution {
 				else {
 					odd+=s.charAt(j);
 				}
-				
 			}
+			
 			System.out.println(even+" "+odd);
 		}
-		
 	}
 }
